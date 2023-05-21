@@ -14,7 +14,7 @@ Moreover, the attacker can send and execute system commands using a SOCKS proxy,
 
 1) Run `python3 gen_rsa.py` to generate a pair of SSH keys. The newly generated `id_rsa` is used by the attacker to connect to the server running on the victim's machine.
 
-2) Edit the `asyncssh_server.py` file and place the contents of the newly generated `id_rsa.pub` inside the `pub_key` variable. The `asyncssh_server.py` file acts as an SSH server with SFTP and SCP enabled, which will be run by the victim.
+2) Edit the `asyncssh_server.py` file and place the contents of the newly generated `id_rsa.pub` inside the `pub_key` variable. The `asyncssh_server.py` provide an implementation of the SSHv2 with SFTP and SCP features. This is the script run by the victim.
 
 3) Create a free account on Ngrok site and take note of the `AUTH` Token.
   

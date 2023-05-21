@@ -1,7 +1,7 @@
 import requests
 
 # Specify your ngrok API key
-api_key = "2Q4e9fW8nG8nt9bkbCCc7UHn9lA_6rPb51o8abF6EDf7gZcpk"
+api_key = ""
 
 # Set the API endpoint URL
 api_url = "https://api.ngrok.com/endpoints"

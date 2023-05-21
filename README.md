@@ -6,7 +6,7 @@
 
 The attacker leverages the `Ngrok official API` to retrieve the hostname and port of the tunnel to establish a connection. This approach takes advantage of the comprehensive capabilities provided by SSH, including its integrated support for `SFTP` and `SCP`, facilitating secure and efficient file exfiltration and more.
 
-Moreover, the attacker can send and execute system commands using a SOCKS proxy, leveraging the benefits offered, for example, by `TOR`, to enhance anonymity.
+Moreover, the attacker can send and execute system commands using a SOCKS proxy, leveraging the benefits offered, for example, using `TOR` to enhance anonymity.
 
 * *Ngrok free account only allows the usage of one tunnel at a time. With some changes this tool could be perfect for a BOT-like C&C framework to control multiple SSH instances, but you would need to upgrade your plan on the Ngrok website, see https://ngrok.com/pricing*
    

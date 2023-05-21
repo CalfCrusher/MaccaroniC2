@@ -26,7 +26,7 @@ Moreover, the attacker can send and execute system commands using a SOCKS proxy,
 
 7) Perform the same step for `get_endpoints.py` file. This script retrieves various useful information about active tunnels.
 
-## Send command to server  
+## Send commands to server  
 
 With `async_commander.py` you can send any command to the server. It *automatically* requests the Ngrok tunnel's domain and port activated by the victim using Ngrok official API.
   

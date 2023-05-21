@@ -1,8 +1,6 @@
-# MaccaroniC2 
+# MaccaroniC2 - Empowering Command & Control using AsyncSSH
 
-
-
-## Empowering Command & Control using AsyncSSH
+![](https://github.com/CalfCrusher/MaccaroniC2/blob/main/maccaroni.jpg)
 
 **MaccaroniC2** is a *proof-of-concept* **Command and Control framework** that utilizes the powerful `AsyncSSH Python library` and `PyNgrok` wrapper for `ngrok` integration. This tool is inspired for a specific scenario where the victim runs an SSH server and establishes a tunnel to the outside.
 

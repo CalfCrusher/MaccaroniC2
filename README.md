@@ -82,7 +82,7 @@ ___
   
 `sftp -P 18499 -i id_rsa ddddd@0.tcp.ngrok.io`
   
-`scp -i id_rsa source_file ddddd@0.tcp.ngrok.io:destination_path`
+`scp -i id_rsa -P 18499 source_file ddddd@0.tcp.ngrok.io:destination_path`
   
 ___
 

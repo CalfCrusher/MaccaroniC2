@@ -15,7 +15,7 @@ private_key = server_key.export_private_key('openssh')
 
 
 def ngrok_tunnel():
-    # Open a SSH tunnel through ngrok
+    # Open a TCP tunnel through ngrok
     global tunnels
     token = "INSERT_YOUR_AUTH_TOKEN"
     ngrok.set_auth_token(token)

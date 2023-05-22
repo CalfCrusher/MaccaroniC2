@@ -4,7 +4,7 @@
 
 **MaccaroniC2** is a *proof-of-concept* **Command and Control framework** that utilizes the powerful `AsyncSSH` Python library which provides an asynchronous client and server implementation of the SSHv2 protocol and use `PyNgrok` wrapper for `ngrok` integration. This tool is inspired for a specific scenario where the victim runs the AsyncSSH server and establishes a tunnel to the outside, ready to receive commands by the attacker.
 
-The attacker leverages the `Ngrok official API` to retrieve the hostname and port of the tunnel to establish a connection. This approach takes advantage of the comprehensive capabilities provided by **AsyncSSH**, including its integrated support for `SFTP` and `SCP`, facilitating secure and efficient file exfiltration and more.
+The attacker leverages the `Ngrok official API` to retrieve the hostname and port of the tunnel to establish a connection. This approach takes advantage of the comprehensive capabilities provided by **AsyncSSH**, including its integrated support for `SFTP` and `SCP`, facilitating secure and efficient data exfiltration and more.
 
 Moreover, the attacker can send and execute system commands using a SOCKS proxy, leveraging the benefits offered, for example, using `TOR` to enhance anonymity.
 

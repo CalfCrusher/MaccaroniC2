@@ -37,7 +37,7 @@ async def run_client(command: str, proxy: str = None) -> None:
 def main():
     parser = argparse.ArgumentParser(description='Run command to execute')
     parser.add_argument('command', type=str, help='Command to execute on server')
-    parser.add_argument('--proxy', type=str, help='Proxy address to use (eg: socks5h://127.0.0.1:9050)')
+    parser.add_argument('--proxy', type=str, help='Proxy address to use (eg: socks5://127.0.0.1:9050)')
 
     args = parser.parse_args()
     command = args.command

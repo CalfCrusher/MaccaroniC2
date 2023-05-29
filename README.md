@@ -42,7 +42,7 @@ ___
 
 From the attacker machine send command using socks proxy:  
   
-`python3 asyncssh_commander.py "ls -la" --proxy socks5h://127.0.0.1:9050`
+`python3 asyncssh_commander.py "ls -la" --proxy socks5://127.0.0.1:9050`
  
 ___
   

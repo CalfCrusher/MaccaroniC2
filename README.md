@@ -86,9 +86,9 @@ ___
   
 - No proxy:
   
-`sftp -P 18499 -i id_rsa ddddd@0.tcp.ngrok.io`
+`sftp -P PORT -i id_rsa ddddd@NGROK_HOST`
   
-`scp -i id_rsa -P 18499 source_file ddddd@0.tcp.ngrok.io:destination_path`
+`scp -i id_rsa -P PORT source_file ddddd@NGROK_HOST:destination_path`
   
 ___
 

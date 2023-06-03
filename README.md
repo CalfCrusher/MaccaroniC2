@@ -100,5 +100,5 @@ ___
 
 ___
 
-**DISCLAIMER: This tool is intended for testing and educational purposes only. It should only be used on systems with proper authorization. Any unauthorized or illegal use of this tool is strictly prohibited. The creator of this tool holds no responsibility for any misuse or damage caused by its usage. Please ensure compliance with applicable laws and regulations while utilizing this tool**
+**DISCLAIMER: This tool is intended for testing and educational purposes only. It should only be used on systems with proper authorization. Any unauthorized or illegal use of this tool is strictly prohibited. The creator of this tool holds no responsibility for any misuse or damage caused by its usage. Please ensure compliance with applicable laws and regulations while utilizing this tool. Additionally, it’s important to note that the usage of Ngrok in conjunction with this tool may result in the violation of the terms of service or policies of certain platforms. It is advisable to review and comply with the terms of use of any platform or service to avoid potential account bans or disruptions.**
   
